@@ -1,4 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hugo Verger</title>
+    <meta name="author" content="Hugo Verger" />
+    <meta name="description" content="Hugo Verger personal website." />
+    <meta name="keywords"  content="Hugo,Verger,personal,website,portfolio,game,dev,projects" />
+    <meta name="Resource-type" content="Document" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	<!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+				sectionsColor: ['#131313', '#181818', '#232323', '#282828'],
+				anchors: ['introPage', 'page2', 'page3', 'contactPage'],
+				menu: '#menu',
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['First page', 'Second page', 'Third page', 'Contact page'],
+				loopHorizontal: false
+            });
+        });
+    </script>
 </head>
-Hello World
+
+<body>
+	<ul id="menu">
+		<li data-menuanchor="introPage" class="active"><a href="#introPage">Intro</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Page 3</a></li>
+		<li data-menuanchor="contactPage"><a href="#contactPage">Contact</a></li>
+	</ul>
+
+	<div id="fullpage">
+
+		<div class="section">
+			<h1>Hugo Verger</h1>
+			<p>Hello !</p>
+			<p>Here you will find a few game projects I've worked on. Feel free to contact me if I can be of some help.</p>
+		</div>
+
+		<div class="section">
+			<h1>Page 2</h1>
+		</div>
+
+		<div class="section">
+			<h1>Page 3</h1>
+			<!-- add data-autoplay for autoplay -->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HG_pRRIrbBA?iv_load_policy=3&mute=1&showinfo=0&modestbranding=1&rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<div class="section">
+			<h1>Contact</h1>
+			<p>You can send me an email by clicking<a href="mailto:hkverger@gmail.com" class="clickhere"> here </a>!</p>
+		</div>
+
+	</div>
+</body>
+
+</html>
