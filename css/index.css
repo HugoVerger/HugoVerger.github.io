@@ -37,7 +37,6 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
     margin: 0;
     padding: 0;
-    color: #c5b99c;
 }
 q:before,q:after {
     content:'';
@@ -48,8 +47,8 @@ abbr,acronym { border: 0;
 /* Custom CSS */
 body{
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	color: #333;
-	color: #c5b99c;
+	/*color: #c5b99c;*/
+	color: #fff;
 }
 .wrap{
 	margin-left: auto;
@@ -58,12 +57,9 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;
+	font-size: 5em;
 }
-p{
-	font-size: 2sem;
-}
-.section{
+.section {
 	text-align: center;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -116,6 +112,69 @@ p{
 }
 
 .clickhere {
-	font-style: bold;
+	font-size: 1.5em;
+	font-weight: bold;
 	color: #fff;
+}
+
+.demoContainer {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	top: 0;
+	left: 0;
+	/*background: #555;*/
+}
+
+.descriptionContainer {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	top: 0;
+	right: 0;
+	/*background: #999;*/
+}
+
+.descriptionTextContainer {
+	padding: 18% 10% 5% 0%;
+}
+
+.demoVideo {
+	position: absolute;
+	width: 560px;
+	height: 315px;
+	margin: auto;
+	left: 50%;
+	top: 46%;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	text-align: left;
+	text-indent: 10%;
+	margin-bottom: 6%;
+	font-weight: 100;
+	text-shadow: 1px 1px 3px #333333;
+}
+
+.technoList {
+	text-align: left;
+	margin-bottom: 5%;
+}
+
+.technoUsed {
+	font-weight: bolder;
+	font-size: 1.1em;
+}
+
+.description {
+	text-align: left;
+}
+
+.logo {
+	position: absolute;
+	margin: auto;
+	left: 50%;
+	top: 42%;
+	transform: translate(-50%, -50%)
 }
