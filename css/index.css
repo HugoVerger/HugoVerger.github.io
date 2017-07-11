@@ -266,3 +266,10 @@ h1{
 .gameName:hover {
 	color: #fff;
 }
+
+#welcome {
+	font-weight: bolder;
+	font-size: 1em;
+	color: #fff;
+	margin-bottom: 3%;
+}
