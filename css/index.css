@@ -34,7 +34,6 @@ caption,th {
 }
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 100;
-	text-shadow: 1px 1px 3px #333333;
     font-size: 100%;
     margin: 0;
     padding: 0;

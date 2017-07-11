@@ -22,14 +22,6 @@ $(document).ready(function(){
 		$(this).fadeOut();
 	});
 
-	$('#EnglishButton').click(function(){
-		alert("English !");
-	});
-
-	$('#FrenchButton').click(function(){
-		alert("Français !");
-	});
-
 	$('#ImpulseLink').click(function(){
 		$.fn.fullpage.moveTo(2);
 	});
@@ -57,5 +49,39 @@ $(document).ready(function(){
 	$('#42daysLink').click(function(){
 		$.fn.fullpage.moveTo(8);
 	});
+
+	//English
+	function SetLanguageToEnglish() {
+		$('#hello').text("Hello");
+		$('#welcome').text("Welcome to my portfolio !");
+		$('#introPhrase').text("Below are a few games I've worked on. Please feel free to get in touch with me if I can be of some help.");
+
+		$('#emailContact').text("You can send me an email at");
+		$('#linkedInContact').text("If you wish you can also check");
+		$('#linkedInProfile').text(" my LinkedIn profile.");
+	};
+
+	//Français
+	function SetLanguageToFrench(){
+		$('#hello').text("Bonjour");
+		$('#welcome').text("Bienvenue sur mon portfolio !");
+		$('#introPhrase').text("Vous trouverez ci-dessous quelques jeux sur lesquels j'ai travaillé. N'hésitez pas à me contacter si je peux être utile.");
+
+		$('#emailContact').text("Vous pouvez m'envoyer un email à");
+		$('#linkedInContact').text("Si vous le désirez, vous pouvez aussi voir");
+		$('#linkedInProfile').text(" mon profil LinkedIn.");
+	};
+
+
+	$('#EnglishButton').click(function(){
+		SetLanguageToEnglish();
+	});
+
+
+	$('#FrenchButton').click(function(){
+		SetLanguageToFrench();
+	});
+
+	SetLanguageToFrench();
 });
 
