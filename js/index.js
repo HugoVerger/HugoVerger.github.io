@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	$('#fullpage').fullpage({
-		sectionsColor: ['#131313', '#161616', '#191919', '#222222', '#252525', '#222222', '#191919', '#161616', '#131313'],
+		sectionsColor: ['#131313', '#161616', '#191919', '#222222', '#252525', '#222222', '#191919', '#161616', '#131313', '#131313'],
 		anchors: ['IntroPage', 'ImpulsePage', 'NinjaWayPage', 'DeeperPage', 'JeuxGratuitsPage', 'CaptivesPage', 'SwitchPage', '42daysPage', 'ContactPage'],
 		menu: '#menu',
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Intro', 'Impulse', 'Ninja Way', 'Deeper', 'Jeux-Gratuits.com', 'Captives', 'Switch ON-OFF', '42 Days Later', 'Contact'],
+		navigationTooltips: ['Intro', 'Impulse', 'Ninja Way', 'Deeper', 'Jeux-Gratuits', 'Captives', 'Switch ON-OFF', '42 Days Later', 'Contact'],
 		loopHorizontal: false,
 		onLeave: function(index, nextIndex, direction){
 			$('#Fullscreen').fadeOut();
@@ -48,6 +48,57 @@ $(document).ready(function(){
 
 	$('#42daysLink').click(function(){
 		$.fn.fullpage.moveTo(8);
+	});
+
+	//Responsive logic
+	var paysage = true;
+
+	function AdjustToViewport() {
+		var viewportWidth = $(window).width();
+		var viewportHeight = $(window).height();
+		if (paysage) {
+			if (viewportWidth < viewportHeight) {
+				paysage = false;
+				$('.demoContainer').css('height', '50%');
+				$('.demoContainer').css('width', '100%');
+				$('.descriptionContainer').css('top', '50%');
+				$('.descriptionContainer').css('height', '50%');
+				$('.descriptionContainer').css('width', '100%');
+				$('.descriptionTextContainer').css('margin', '0 auto');
+				$('.demoVideo').css('width', '90vw');
+				$('.demoVideo').css('height', '50.625vw');
+				$('.gallery').css('width', '90vw');
+				$('.gallery').css('height', '45vw');
+			}
+		} else {
+			if (viewportWidth > viewportHeight) {
+				paysage = true;
+				$('.demoContainer').css('height', '100%');
+				$('.demoContainer').css('width', '50%');
+				$('.descriptionContainer').css('top', '0%');
+				$('.descriptionContainer').css('height', '100%');
+				$('.descriptionContainer').css('width', '50%');
+				$('.descriptionTextContainer').css('margin', '20% 10% 0 1%');
+				$('.demoVideo').css('width', '45vw');
+				$('.demoVideo').css('height', '25.3125vw');
+				$('.gallery').css('width', '45vw');
+				$('.gallery').css('height', '22.5vw');
+			}
+		}
+		if (paysage && viewportWidth < 1200) {
+			$('.title').css('font-size', '3em');
+		} else {
+			$('.title').css('font-size', '4em');
+		}
+		if (paysage && 0.015 * viewportWidth < 16) {
+			$('#menu').css('font-size', '1.5vw');
+		} else {
+			$('#menu').css('font-size', '1em');
+		}
+	}
+
+	$(window).resize(function() {
+		AdjustToViewport();
 	});
 
 	//English
@@ -121,5 +172,6 @@ $(document).ready(function(){
 	});
 
 	SetLanguageToFrench();
+	AdjustToViewport();
 });
 
