@@ -268,13 +268,11 @@ h1{
 }
 
 .date {
-	font-size: 0.9em;
 	font-style: italic;
 	margin: 0 15px 0 30px;
 }
 
 .gameName {
-	font-size: 0.9em;
 	font-weight: bold;
 	color: darkorange;
 	cursor: pointer;

@@ -69,6 +69,10 @@ $(document).ready(function(){
 				$('.demoVideo').css('height', '50.625vw');
 				$('.gallery').css('width', '90vw');
 				$('.gallery').css('height', '45vw');
+				$('#welcome').css('font-size', '1.6em');
+				$('.technoList').css('font-size', '1.5em');
+				$('.description').css('font-size', '1.4em');
+				$('.contactDesc').css('font-size', '1.5em');
 			}
 		} else {
 			if (viewportWidth > viewportHeight) {
@@ -83,6 +87,10 @@ $(document).ready(function(){
 				$('.demoVideo').css('height', '25.3125vw');
 				$('.gallery').css('width', '45vw');
 				$('.gallery').css('height', '22.5vw');
+				$('#welcome').css('font-size', '1.1em');
+				$('.technoList').css('font-size', '1em');
+				$('.description').css('font-size', '0.9em');
+				$('.contactDesc').css('font-size', '1em');
 			}
 		}
 		if (paysage && viewportWidth < 1200) {
@@ -117,7 +125,7 @@ $(document).ready(function(){
 		$('#DeeperDesc').text("Deeper is a game for Android made during a gamejam with the theme \"platformer without a jump button\". The player must always keep the ball inside the screen while lowering it to the end of the level.");
 
 		$('#JeuxGratuitsTechnos').text("HTML5 for the web and mobile, Cocos2D (Javascript), SmartFoxServer (Java), Multiplayer online");
-		$('#JeuxGratuitsDesc').text("During a 6 months internship at Pinpin Team I had the task of recreating 3 multiplayer games for Jeux-Gratuits.com from their Flash version to a new HTML5 version for the web and mobile. I was a developer of both the client side in Javascript and the server side in Java. I worked on everything from adapting the UI to all resolutions on the client side to managing the player connections on the server side. I then helped putting these games into production. The most interesting part was developing and balancing the AI of the bots for the offline mode.");
+		$('#JeuxGratuitsDesc').text("During a 6 months internship at Pinpin Team I had the task of recreating 3 multiplayer games for Jeux-Gratuits.com from their Flash version to a new HTML5 version for the web and mobile. As a developer I worked on everything from the adaptation of the UI for all client-side resolutions in Javascript up to the management of player connections on the server side in Java. I then helped putting these games into production. The most interesting part was developing and balancing the AI of the bots for the offline mode.");
 
 		$('#CaptivesDesc').text("Captives is a virtual assistant in HTML5 for Android and iOS. This project from the Institute of Internet and Multimedia's research lab is an adaption of a fiction based on artificial intelligences. The user can interact with an artificial intelligence via text messages in a chat.");
 
@@ -147,7 +155,7 @@ $(document).ready(function(){
 		$('#DeeperDesc').text("Deeper est un jeu pour Android réalisé lors d'une gamejam avec le thème \"platformer sans bouton de saut\". Le joueur doit toujours garder la balle à l'intérieur de l'écran tout en la faisant descendre jusqu'à la fin du niveau.");
 
 		$('#JeuxGratuitsTechnos').text("HTML5 pour le web et le mobile, Cocos2D (Javascript), SmartFoxServer (Java), Multi-joueurs en ligne");
-		$('#JeuxGratuitsDesc').text("Lors d'un stage de 6 mois chez Pinpin Team j'ai eu la tâche de recréer 3 jeux multi-joueurs de Jeux-Gratuits.com depuis leur version Flash vers une nouvelle version HTML5 pour le web et mobile. En tant que développeur, j'ai travaillé sur tout aussi bien du côté client en Javascript que du côté serveur en Java: de l'adaptation de l'UI pour toutes les résolutions côté client jusqu'à la gestion des connexions des joueurs côté serveur. Puis j'ai accompagné la mise en production de ces jeux. La partie la plus intéressante fut de développer et d'équilibrer les IA des bots pour le mode hors-ligne.");
+		$('#JeuxGratuitsDesc').text("Durant un stage de 6 mois chez Pinpin Team j'ai eu la tâche de recréer 3 jeux multi-joueurs de Jeux-Gratuits.com depuis leur version Flash vers une nouvelle version HTML5 pour le web et le mobile. En tant que développeur j'ai travaillé sur tout: de l'adaptation de l'UI pour toutes les résolutions côté client en Javascript jusqu'à la gestion des connexions des joueurs côté serveur en Java. Puis j'ai accompagné la mise en production de ces jeux. La partie la plus intéressante fut de développer et d'équilibrer les IA des bots pour le mode hors-ligne.");
 
 		$('#CaptivesDesc').text("Captives est un projet d'assistant virtuel en HTML5 pour Android et iOS. Ce projet du laboratoire de recherche de l'IIM est une adaptation d'une fiction basée sur les intelligences artificielles. L'utilisateur peut interagir avec une intelligence artificielle par message dans un chat.");
 
