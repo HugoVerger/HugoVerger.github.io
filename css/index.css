@@ -48,6 +48,7 @@ abbr,acronym { border: 0;
 body{
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #fff;
+	background: #131313;
 }
 .wrap{
 	margin-left: auto;
@@ -141,13 +142,18 @@ h1{
 	text-align: left;
 }
 
-.demoVideo {
+.videoAligner {
 	position: absolute;
+	width: 100%;
+	height: 90%;
+	left: 0;
+	top: 0;
+}
+
+.demoVideo {
+	vertical-align: middle;
 	width: 45vw;
 	height: 25.3125vw;
-	left: 50%;
-	top: 45%;
-	transform: translate(-50%, -50%);
 	-webkit-box-shadow: 3px 3px 10px 0px #000;
 	-moz-box-shadow:    3px 3px 10px 0px #000;
 	box-shadow:         3px 3px 10px 0px #000;
