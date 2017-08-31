@@ -179,7 +179,7 @@ $(document).ready(function(){
 		SetLanguageToFrench();
 	});
 
-	SetLanguageToFrench();
+	SetLanguageToEnglish();
 	AdjustToViewport();
 });
 
