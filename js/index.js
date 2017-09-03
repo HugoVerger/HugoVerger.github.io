@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('#fullpage').fullpage({
-		sectionsColor: ['#131313', '#161616', '#191919', '#222222', '#252525', '#222222', '#191919', '#161616', '#131313', '#131313'],
+		sectionsColor: ['#202020', '#232323', '#262626', '#292929', '#313131', '#292929', '#262626', '#232323', '#202020', '#171717'],
 		anchors: ['IntroPage', 'ImpulsePage', 'NinjaWayPage', 'DeeperPage', 'JeuxGratuitsPage', 'CaptivesPage', 'SwitchPage', '42daysPage', 'ContactPage'],
 		menu: '#menu',
 		navigation: true,
@@ -113,7 +113,7 @@ $(document).ready(function(){
 	function SetLanguageToEnglish() {
 		$('#hello').text("Hello");
 		$('#welcome').text("Welcome to my portfolio !");
-		$('#introPhrase').text("Below are a few games I've worked on. Please feel free to get in touch with me if I can be of some help.");
+		$('#introPhrase').text("Below are a few games I've worked on. Please feel free to get in touch with me if I can be of any help.");
 
 		$('.technoUsed').text("Technologies used: ");
 
