@@ -113,7 +113,7 @@ $(document).ready(function(){
 	function SetLanguageToEnglish() {
 		$('#hello').text("Hello");
 		$('#welcome').text("Welcome to my portfolio !");
-		$('#introPhrase').text("Below are a few games I've worked on. Please feel free to get in touch with me if I can be of some help.");
+		$('#introPhrase').text("Below are a few games I've worked on. Please feel free to get in touch with me if I can be of any help.");
 
 		$('.technoUsed').text("Technologies used: ");
 
