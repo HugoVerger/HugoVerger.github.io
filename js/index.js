@@ -1,11 +1,11 @@
 $(document).ready(function(){
 	$('#fullpage').fullpage({
 		sectionsColor: ['#131313', '#161616', '#191919', '#222222', '#252525', '#222222', '#191919', '#161616', '#131313', '#131313'],
-		anchors: ['IntroPage', 'ImpulsePage', 'NinjaWayPage', 'DeeperPage', 'JeuxGratuitsPage', 'CaptivesPage', 'SwitchPage', '42daysPage', 'ContactPage'],
+		anchors: ['IntroPage', 'ImpulsionPage', 'NinjaWayPage', 'DeeperPage', 'JeuxGratuitsPage', 'CaptivesPage', 'SwitchPage', '42daysPage', 'ContactPage'],
 		menu: '#menu',
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Intro', 'Impulse', 'Ninja Way', 'Deeper', 'Jeux-Gratuits', 'Captives', 'Switch ON-OFF', '42 Days Later', 'Contact'],
+		navigationTooltips: ['Intro', 'Impulsion', 'Ninja Way', 'Deeper', 'Jeux-Gratuits', 'Captives', 'Switch ON-OFF', '42 Days Later', 'Contact'],
 		loopHorizontal: false,
 		onLeave: function(index, nextIndex, direction){
 			$('#Fullscreen').fadeOut();
@@ -22,7 +22,7 @@ $(document).ready(function(){
 		$(this).fadeOut();
 	});
 
-	$('#ImpulseLink').click(function(){
+	$('#ImpulsionLink').click(function(){
 		$.fn.fullpage.moveTo(2);
 	});
 
@@ -117,7 +117,7 @@ $(document).ready(function(){
 
 		$('.technoUsed').text("Technologies used: ");
 
-		$('#ImpulseDesc').text("Impulse is a first-person action-platform game set in a futuristic universe. The game is made under Unreal Engine 4 with a team of 3 people. We are aiming for a release on Steam at the end of 2017. Within the team, I mainly fulfill the roles of project manager and developer: I am solely responsible for everything related to code and scripting. We share the tasks of game design and level design, and then I take care of prototyping levels.");
+		$('#ImpulsionDesc').text("Impulsion is a first-person action-platform game set in a futuristic universe. The game is made under Unreal Engine 4 with a team of 3 people. We are aiming for a release on Steam at the end of 2017. Within the team, I mainly fulfill the roles of project manager and developer: I am solely responsible for everything related to code and scripting. We share the tasks of game design and level design, and then I take care of prototyping levels.");
 
 		$('#NinjaWayTechnos').text("Unity 3D, Speech recognition");
 		$('#NinjaWayDesc').text("Ninja Way is an infinite runner where the player controls a ninja by voice by telling him in which direction to go and when to jump. This little game made with Unity allowed me to learn how to create an infinite runner and made me discover the limitations of speech recognition for games.");
@@ -147,7 +147,7 @@ $(document).ready(function(){
 
 		$('.technoUsed').text("Technologies utilisées: ");
 
-		$('#ImpulseDesc').text("Impulse est un jeu d'action à la première personne situé dans un univers futuriste. Le jeu est fait sous Unreal Engine 4 avec une équipe de 3 personnes. Nous visons une sortie du jeu sur Steam à la fin de l'année 2017. Au sein de l'équipe, je remplis principalement les rôles de chef de projet et de développeur: je suis le seul responsable de tout ce qui se rapporte au code et au scripting. Nous partageons ensemble les tâches de game design et de level design, puis je m'occupe ensuite de prototyper les niveaux.");
+		$('#ImpulsionDesc').text("Impulsion est un jeu d'action à la première personne situé dans un univers futuriste. Le jeu est fait sous Unreal Engine 4 avec une équipe de 3 personnes. Nous visons une sortie du jeu sur Steam à la fin de l'année 2017. Au sein de l'équipe, je remplis principalement les rôles de chef de projet et de développeur: je suis le seul responsable de tout ce qui se rapporte au code et au scripting. Nous partageons ensemble les tâches de game design et de level design, puis je m'occupe ensuite de prototyper les niveaux.");
 
 		$('#NinjaWayTechnos').text("Unity 3D, Reconnaissance vocale");
 		$('#NinjaWayDesc').text("Ninja Way est un runner infini où le joueur contrôle un ninja par la voix en lui disant dans quelle direction aller et quand sauter. Ce petit jeu fait sous Unity m'a permis d'apprendre à créer un runner infini et de découvrir les limitations de la reconnaissance vocale pour les jeux.");
