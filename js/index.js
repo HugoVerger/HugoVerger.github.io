@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$('#fullpage').fullpage({
-		sectionsColor: ['#131313', '#161616', '#191919', '#222222', '#252525', '#222222', '#191919', '#161616', '#131313', '#131313'],
 		anchors: ['IntroPage', 'ImpulsionPage', 'NinjaWayPage', 'DeeperPage', 'JeuxGratuitsPage', 'CaptivesPage', 'SwitchPage', '42daysPage', 'ContactPage'],
 		menu: '#menu',
 		navigation: true,
