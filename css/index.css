@@ -161,7 +161,7 @@ h1{
 
 .title {
 	white-space: nowrap;
-	text-indent: 10%;
+	text-indent: 7%;
 	margin-bottom: 5%;
 }
 
@@ -300,4 +300,20 @@ h1{
 	font-size: 1.1em;
 	color: #fff;
 	margin-bottom: 3%;
+}
+
+#ImpulsionTitle {
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+
+#ImpulsionTitle h1 {
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.award {
+	width: auto;
+	height: 5em;
 }

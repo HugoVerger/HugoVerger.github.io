@@ -94,8 +94,10 @@ $(document).ready(function(){
 		}
 		if (paysage && viewportWidth < 1200) {
 			$('.title').css('font-size', '3em');
+			$('.award').css('height', '3em');
 		} else {
 			$('.title').css('font-size', '4em');
+			$('.award').css('height', '5em');
 		}
 		if (paysage && 0.015 * viewportWidth < 16) {
 			$('#menu').css('font-size', '1.5vw');
