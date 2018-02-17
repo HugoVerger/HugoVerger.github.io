@@ -118,12 +118,12 @@ $(document).ready(function(){
 
 		$('.technoUsed').text("Technologies used: ");
 
-		$('#ImpulsionDesc').text("Impulsion is a first-person action-platform game set in a futuristic universe. The game is made under Unreal Engine 4 with a team of 3 people. We are aiming for a release on Steam early 2018. Within the team, I mainly fulfill the roles of project manager and developer: I am solely responsible for everything related to code and scripting. We share the tasks of game design and level design, and then I take care of prototyping levels. The game has won the 2017 Ping Award of Best Student Game and was nominated in the Best Student Game category at The Game Awards 2017 !");
+		$('#ImpulsionDesc').text("Impulsion is a first-person platformer set in a futuristic universe. Impulsion has been awarded the Ping Awards 2017 of Best Student Game and was nominated at The Game Awards 2017 in the Best Student Game category !\nThe game is made in Unreal Engine 4 with a team of 3 people. Within the team, I mainly fulfill the roles of Game Producer, Project Manager, and Lead Developer. We share the tasks of game design and level design, and then I take care of prototyping levels. Impulsion will be released in 2018 !");
 
 		$('#NinjaWayTechnos').text("Unity 3D, Speech recognition");
 		$('#NinjaWayDesc').text("Ninja Way is an infinite runner where the player controls a ninja by voice by telling him in which direction to go and when to jump. This little game made with Unity allowed me to learn how to create an infinite runner and made me discover the limitations of speech recognition for games.");
 
-		$('#DeeperDesc').text("Deeper is a game for Android made during a gamejam with the theme \"platformer without a jump button\". The player must always keep the ball inside the screen while lowering it to the end of the level.");
+		$('#DeeperDesc').text("Deeper is an Android game made in Unity during a gamejam with the theme \"platformer without a jump button\". The player must always keep the ball inside the screen while lowering it to the end of the level. Within the team, I mainly fulfilled the roles of project manager and developer.");
 
 		$('#JeuxGratuitsTechnos').text("HTML5 for the web and mobile, Cocos2D (Javascript), SmartFoxServer (Java), Multiplayer online");
 		$('#JeuxGratuitsDesc').text("During a 6 months internship at Pinpin Team I had the task of recreating 3 multiplayer games for Jeux-Gratuits.com from their Flash version to a new HTML5 version for the web and mobile. As a developer I worked on everything from the adaptation of the UI for all client-side resolutions in Javascript up to the management of player connections on the server side in Java. I then helped putting these games into production. The most interesting part was developing and balancing the AI of the bots for the offline mode.");
@@ -148,7 +148,7 @@ $(document).ready(function(){
 
 		$('.technoUsed').text("Technologies utilisées: ");
 
-		$('#ImpulsionDesc').text("Impulsion est un jeu d'action à la première personne situé dans un univers futuriste. Le jeu est fait sous Unreal Engine 4 avec une équipe de 3 personnes. Nous visons une sortie du jeu sur Steam début 2018. Au sein de l'équipe, je remplis principalement les rôles de chef de projet et de développeur: je suis le seul responsable de tout ce qui se rapporte au code et au scripting. Nous partageons ensemble les tâches de game design et de level design, puis je m'occupe ensuite de prototyper les niveaux. Le jeu a remporté le prix Ping Award 2017 du Meilleur Jeu Etudiant et a été nominé dans la catégorie du Meilleur Jeu Etudiant aux Game Awards 2017 qui ont eu lieu à Los Angeles !");
+		$('#ImpulsionDesc').text("Impulsion est un jeu d'action à la première personne se déroulant dans un univers futuriste. Impulsion a remporté le Ping Awards 2017 du Meilleur Jeu Etudiant et a été nominé dans la catégorie Meilleur Jeu Etudiant à The Game Awards 2017 à Los Angeles !\nLe jeu est fait sous Unreal Engine 4 avec une équipe de 3 personnes. Au sein de l'équipe, je remplis principalement les rôles de Game Producer, Project Manager et Lead Developer. Nous partageons ensemble les tâches de game design et de level design, puis je m'occupe ensuite de prototyper les niveaux. Impulsion sortira en 2018 !");
 
 		$('#NinjaWayTechnos').text("Unity 3D, Reconnaissance vocale");
 		$('#NinjaWayDesc').text("Ninja Way est un runner infini où le joueur contrôle un ninja par la voix en lui disant dans quelle direction aller et quand sauter. Ce petit jeu fait sous Unity m'a permis d'apprendre à créer un runner infini et de découvrir les limitations de la reconnaissance vocale pour les jeux.");

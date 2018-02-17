@@ -178,6 +178,7 @@ h1{
 
 .description {
 	font-size: 0.9em;
+	white-space: pre-wrap;
 }
 
 .gallery {
