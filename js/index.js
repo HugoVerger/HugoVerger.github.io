@@ -118,7 +118,7 @@ $(document).ready(function(){
 
 		$('.technoUsed').text("Technologies used: ");
 
-		$('#ImpulsionDesc').text("Impulsion is a first-person platformer set in a futuristic universe. Impulsion has been awarded the Ping Awards 2017 of Best Student Game and was nominated at The Game Awards 2017 in the Best Student Game category !\nThe game is made in Unreal Engine 4 with a team of 3 people. Within the team, I mainly fulfill the roles of Game Producer, Project Manager, and Lead Developer. We share the tasks of game design and level design, and then I take care of prototyping levels. Impulsion will be released in 2018 !");
+		$('#ImpulsionDesc').text("Impulsion is a first-person platformer set in a futuristic universe. Impulsion has been awarded the Ping Awards 2017 of Best Student Game and was nominated at The Game Awards 2017 in the Best Student Game category !\nThe game is made in Unreal Engine 4 with a team of 3 people. Within the team, I mainly fulfill the roles of Game Producer, Project Manager, and Lead Developer. We share the tasks of game design and level design, and then I take care of prototyping levels. Impulsion is out on Steam !");
 
 		$('#NinjaWayTechnos').text("Unity 3D, Speech recognition");
 		$('#NinjaWayDesc').text("Ninja Way is an infinite runner where the player controls a ninja by voice by telling him in which direction to go and when to jump. This little game made with Unity allowed me to learn how to create an infinite runner and made me discover the limitations of speech recognition for games.");
@@ -148,7 +148,7 @@ $(document).ready(function(){
 
 		$('.technoUsed').text("Technologies utilisées: ");
 
-		$('#ImpulsionDesc').text("Impulsion est un jeu d'action à la première personne se déroulant dans un univers futuriste. Impulsion a remporté le Ping Awards 2017 du Meilleur Jeu Etudiant et a été nominé dans la catégorie Meilleur Jeu Etudiant à The Game Awards 2017 à Los Angeles !\nLe jeu est fait sous Unreal Engine 4 avec une équipe de 3 personnes. Au sein de l'équipe, je remplis principalement les rôles de Game Producer, Project Manager et Lead Developer. Nous partageons ensemble les tâches de game design et de level design, puis je m'occupe ensuite de prototyper les niveaux. Impulsion sortira en 2018 !");
+		$('#ImpulsionDesc').text("Impulsion est un jeu d'action à la première personne se déroulant dans un univers futuriste. Impulsion a remporté le Ping Awards 2017 du Meilleur Jeu Etudiant et a été nominé dans la catégorie Meilleur Jeu Etudiant à The Game Awards 2017 à Los Angeles !\nLe jeu est fait sous Unreal Engine 4 avec une équipe de 3 personnes. Au sein de l'équipe, je remplis principalement les rôles de Game Producer, Project Manager et Lead Developer. Nous partageons ensemble les tâches de game design et de level design, puis je m'occupe ensuite de prototyper les niveaux. Impulsion est disponible sur Steam !");
 
 		$('#NinjaWayTechnos').text("Unity 3D, Reconnaissance vocale");
 		$('#NinjaWayDesc').text("Ninja Way est un runner infini où le joueur contrôle un ninja par la voix en lui disant dans quelle direction aller et quand sauter. Ce petit jeu fait sous Unity m'a permis d'apprendre à créer un runner infini et de découvrir les limitations de la reconnaissance vocale pour les jeux.");
